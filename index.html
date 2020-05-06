@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Js Calculator</title>
+</head>
+<body>
+    <main id="mainContent">
+        <h1>Calculator</h1>
+        <p>~Made with javascript~</p>
+        <div id="calculator">
+            
+            <header id="calcAppHeader">
+                <section id="calcNav">
+                    <ul id="topCalcNav">
+                        <li><i class="fas fa-caret-down"></i></li>
+                        <li><h2 id="calcAppTitle">Calculator</h2></li>
+                        
+                        <li id="minimize"><i class="fas fa-minus" aria-hidden="true"></i></li>
+                        <li id="close"><i class="fas fa-times" aria-hidden="true"></i></li>
+                    </ul>
+                </section>
+            </header>
+
+            <div id="calculatorScreen">0</div>
+
+            <div id="calculatorButtons">
+                <button class="calcButton">7</button>
+                <button class="calcButton">8</button>
+                <button class="calcButton">9</button>
+                <button class="calcButton operator">÷</button>
+                <button class="calcButton">Delete</button>
+                <button class="calcButton">Clear</button>
+                <button class="calcButton">4</button>
+                <button class="calcButton">5</button>
+                <button class="calcButton">6</button>
+                <button class="calcButton">x</button>
+                <button class="calcButton operator">x/100</button>
+                <button class="calcButton operator">x*100</button>
+                <button class="calcButton">1</button>
+                <button class="calcButton">2</button>
+                <button class="calcButton">3</button>
+                <button class="calcButton operator">-</button>
+                <button class="calcButton operator">x <sup>2</sup></button>
+                <button class="calcButton operator">√</button>
+                <button class="calcButton">0</button>
+                <button class="calcButton">.</button>
+                <button class="calcButton operator">%</button>
+                <button class="calcButton operator">+</button>
+                <button id="equals">=</button>
+            </div>
+
+        </div>
+    </main>
+    <script src="scripts/calculator.js"></script>
+</body>
+</html>
